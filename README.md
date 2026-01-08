@@ -407,9 +407,23 @@ An industrial-grade **B-Rep geometry kernel**.
 
 **Key Features**
 
--   Booleans, fillets, lofts, NURBS
--   STEP / IGES support
--   Used by FreeCAD, CadQuery
+- Solid & surface modeling: robust B-Rep modeling with Booleans, fillets, chamfers, offsets, sweeps, drafts, and advanced construction tools.
+
+- Rich geometric algorithms: point/surface projection, curve/surface intersections, analytical and approximate constructions.
+
+- NURBS & parametric geometry: support for NURBS curves and surfaces, transformations, and analytic primitives (planes, cylinders, cones, spheres, etc.).
+
+- Data interoperability: import/export for STEP, IGES, STL, VRML, BREP plus extended exchange with attributes and assembly (XCAF).
+
+- Shape healing & model repair: tools to correct inconsistencies in imported CAD models.
+
+- Visualization & rendering: interactive 3D display, selection, shading, real-time ray tracing, layered display controls.
+
+- Mesh handling: conversion between exact geometry and tessellated meshes for display and rapid prototyping workflows.
+
+- Application framework: document management (OCAF), undo/redo, attribute tracking, and extensible architecture.
+
+- Modular C++ class libraries designed for rapid development of domain-specific CAD/CAM/CAE applications.
 
 #### pythonOCC
 
@@ -422,6 +436,22 @@ Python bindings for OpenCascade.
 -   Rapid CAD prototyping
 -   Scriptable B-Rep modeling
 -   Research & automation friendly
+
+#### TiGL
+
+<https://github.com/DLR-SC/tigl>
+
+A parametric geometry kernel for aircraft design based on CPACS and OpenCASCADE.
+
+**Key Features**
+
+- Parametric aircraft geometry (wings, fuselages, control surfaces)
+- CPACS-driven modeling workflow
+- NURBS-based surface generation (built on OCCT)
+- Geometry queries (surface points, intersections, sections)
+- Export to STEP, IGES, STL, VTK, Collada
+- Multi-language bindings (C, C++, Python, Java, MATLAB)
+- Includes TiGL Viewer for geometry visualization
 
 #### libfive
 

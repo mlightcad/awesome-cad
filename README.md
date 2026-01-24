@@ -17,6 +17,8 @@ Inspired by the *awesome-list* philosophy.
  
 - [🧑‍💻 Code-Driven / Scriptable CAD](#-code-driven--scriptable-cad)
 
+- [🤖 AI-Assisted Design](#-ai-assisted-design)
+
 - [🌐 Web-Based CAD / DXF Viewers](#-web-based-cad--dxf-viewers)
 
 - [📐 DXF / DWG Parsers & Libraries](#-dxf--dwg-parsers--libraries)
@@ -266,6 +268,23 @@ A Python frontend that generates **OpenSCAD-compatible code**.
 -   Easy integration with Python tooling
 -   Ideal for quick scripting and automation
 
+## 🤖 AI-Assisted Design
+
+#### CADAM
+
+<https://github.com/Adam-CAD/CADAM>
+
+An open-source AI-powered text-to-CAD web application that turns natural language and images into parametric 3D models in the browser.
+
+**Key Features**
+
+-   Natural language input to describe 3D models
+-   Image-assisted model generation
+-   Parametric controls with interactive sliders
+-   Real-time 3D preview in browser
+-   Export to .STL and .SCAD formats
+-   Browser-based with no installation required
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer
@@ -346,6 +365,22 @@ A Python library for **reading, writing, and modifying DXF files**.
 -   Actively maintained
 -   Ideal for CAD automation and data processing
 -   Popular in scripting and batch workflows
+
+#### ACadSharp
+
+<https://github.com/DomCR/ACadSharp>
+
+A .NET library for reading, writing, and manipulating DXF and DWG files without requiring AutoCAD.
+
+**Key Features**
+
+-   Native C# / .NET API
+-   Read and write DXF (ASCII & binary) and DWG files
+-   Strong support for CAD structures (Entities, Blocks, Layers, Tables, Styles)
+-   Multi-version DXF/DWG compatibility
+-   Fine-grained control over geometry and document data
+-   No AutoCAD dependency
+-   Open-source (MIT license), suitable for automation and CAD tooling
 
 #### dxflib
 

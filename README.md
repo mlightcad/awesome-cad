@@ -632,79 +632,146 @@ An electronics CAD and prototyping tool.
 
 ## 📊 CAD Datasets
 
-#### ABC Dataset (Autodesk)
+CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.
 
-[https://github.com/AutodeskAILab/abc]()
+### 🔺 Mesh-Based CAD / Shape Datasets
 
-A large-scale dataset of real CAD models.
-
-**Key Features**
-
--   B-Rep + mesh
--   Industry-grade geometry
--   Research benchmark
-
-#### Fusion 360 Gallery Dataset
-
-<https://github.com/AutodeskAILab/Fusion360GalleryDataset>
-
-Parametric CAD models with design history.
-
-**Key Features**
-
--   Feature trees included
--   Ideal for ML on CAD
--   High-quality solids
+Datasets where geometry is represented primarily as **triangle meshes or point clouds**.  
+Commonly used in **3D vision**, **shape generation**, and **geometry learning**, but *not* ideal for parametric CAD reconstruction.
 
 #### ShapeNet (CAD subset)
 
 <https://github.com/ShapeNet/ShapeNet>
 
-A large 3D shape dataset containing CAD-like models.
+A massive dataset of 3D shapes, including many CAD-like objects.
 
 **Key Features**
 
--   Massive scale
--   Mesh-focused
--   Common ML benchmark
+-   Large-scale mesh dataset
+-   Category-level annotations
+-   Widely used ML benchmark
+-   Not parametric or editable CAD
 
 #### PartNet
 
 <https://github.com/daerduoCarey/PartNet>
 
-A dataset with hierarchical part-level annotations.
+A structured dataset with hierarchical part annotations built on ShapeNet.
 
 **Key Features**
 
 -   Fine-grained part decomposition
--   Semantic labels
--   Ideal for assembly & reasoning research
+-   Semantic part labels
+-   Assembly-aware structure
+-   Mesh-based representation
+
+#### Text2Shape
+
+[https://github.com/kchen92/text2shape]()
+
+A dataset pairing natural language descriptions with 3D shapes.
+
+**Key Features**
+
+-   Text ↔ mesh pairs
+-   Early benchmark for text-driven 3D generation
+-   Useful for multimodal pretraining
+-   Not parametric CAD
+
+### 📐 Parametric / B-Rep CAD Datasets
+
+Datasets that represent geometry as **procedural CAD programs**, **feature trees**, or **B-Rep solids**.  
+These are critical for **editable CAD**, **design automation**, and **engineering-focused ML**.
+
+#### ABC Dataset (Autodesk)
+
+<https://github.com/AutodeskAILab/abc>
+
+A large-scale dataset of real-world CAD models.
+
+**Key Features**
+
+-   B-Rep + mesh representations
+-   Industry-grade CAD geometry
+-   High-quality solids
+-   Popular benchmark for CAD reconstruction
+
+#### Fusion 360 Gallery Dataset
+
+<https://github.com/AutodeskAILab/Fusion360GalleryDataset>
+
+A dataset of parametric CAD models with full design history.
+
+**Key Features**
+
+-   Feature trees and construction sequences
+-   Sketches + operations
+-   Ideal for learning parametric modeling
+-   Strong foundation for CAD ML research
 
 #### DeepCAD
 
 <https://github.com/ChrisWu1997/DeepCAD>
 
-A parametric CAD dataset with procedural construction sequences.
+A parametric CAD dataset with explicit procedural construction sequences.
 
 **Key Features**
 
--   Programmatic modeling history
+-   Programmatic CAD modeling steps
 -   Sketch-based operations
--   Ideal for CAD sequence learning
+-   Clean parametric representation
+-   Ideal for sequence learning and CAD synthesis
 
-## 📚 CAD Research & Related
+### 📝 Text-Guided / Text-to-CAD Datasets
 
-#### Awesome-CAD (Research Papers)
+Datasets that **align natural language with CAD models or CAD programs**, enabling research in  
+**Text → CAD generation**, **language-guided modeling**, and **multimodal CAD understanding**.
 
-[https://github.com/bertjiazheng/Awesome-CAD](https://github.com/bertjiazheng/Awesome-CAD)
+#### Text2CAD Dataset
 
-A curated list of academic CAD research resources.
+<https://sadilkhan.github.io/text2cad-project/>
+
+A large-scale dataset explicitly designed for **Text-to-CAD research**, aligning natural language with parametric CAD models.
 
 **Key Features**
 
--   CAD geometry processing papers
--   ML on CAD
--   Research-oriented references
+-   Natural language ↔ parametric CAD pairs
+-   CAD represented as procedural programs
+-   Fine-grained design intent annotations
+-   Supports Text → CAD and CAD → Text tasks
+
+**Primary Use Cases**
+
+-   Text-to-parametric CAD generation
+-   Language-driven CAD editing
+-   CAD retrieval from natural language
+-   Multimodal representation learning
+
+#### ShapeTalk
+
+[https://github.com/ShapeTalk/ShapeTalk]()
+
+A dataset of language grounded in 3D geometry.
+
+**Key Features**
+
+-   Referring expressions for shapes
+-   Language grounding in geometry
+-   Useful for semantic understanding
+-   Often combined with CAD datasets
+
+#### Fusion 360 Gallery + Language (Derived)
+
+<https://github.com/AutodeskAILab/Fusion360GalleryDataset>
+
+While not natively textual, Fusion 360 Gallery is frequently **augmented with synthetic or human-written descriptions** for Text-to-CAD experiments.
+
+**Key Features**
+
+-   Parametric CAD + feature trees
+-   Common base dataset for text annotation
+-   Used in weakly supervised Text-to-CAD research
+-   Bridges classic CAD ML and language models
 
 ## 🤝 Contributing
 

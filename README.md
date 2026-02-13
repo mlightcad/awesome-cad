@@ -722,6 +722,20 @@ A parametric CAD dataset with explicit procedural construction sequences.
 -   Clean parametric representation
 -   Ideal for sequence learning and CAD synthesis
 
+#### WHUCAD
+
+<https://github.com/fazhihe/WHUCAD>  
+Paper: <https://journals.sagepub.com/doi/10.3233/ICA-240744>
+
+A large-scale **feature-level parametric CAD dataset** designed to model advanced CAD operations beyond simple sketch–extrude workflows.
+
+**Key Features**
+
+-   Parametric CAD programs with structured command sequences
+-   Includes advanced modeling features
+-   Bridges low-level commands and high-level feature representations
+-   Suitable for procedural CAD generation and feature learning
+
 ### 📝 Text-Guided / Text-to-CAD Datasets
 
 Datasets that **align natural language with CAD models or CAD programs**, enabling research in  

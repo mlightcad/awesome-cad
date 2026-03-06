@@ -761,6 +761,27 @@ A large-scale dataset explicitly designed for **Text-to-CAD research**, aligning
 -   CAD retrieval from natural language
 -   Multimodal representation learning
 
+#### Omni-CAD Dataset
+
+<https://huggingface.co/datasets/jingwei-xu-00/Omni-CAD>
+
+A large-scale **multimodal CAD dataset** designed for unified learning across **geometry, CAD programs, and natural language**.
+
+**Key Features**
+
+-   Multimodal CAD representation (geometry + program + language)
+-   Supports **Text ↔ CAD ↔ Geometry** tasks
+-   Includes parametric CAD construction sequences
+-   Designed for training **foundation models for CAD**
+-   Suitable for **CAD generation, understanding, and editing**
+
+**Primary Use Cases**
+
+-   Text-to-CAD generation
+-   CAD program synthesis
+-   Multimodal CAD representation learning
+-   CAD understanding with language supervision
+
 #### ShapeTalk
 
 [https://github.com/ShapeTalk/ShapeTalk]()

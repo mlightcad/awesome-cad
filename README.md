@@ -285,6 +285,36 @@ An open-source AI-powered text-to-CAD web application that turns natural languag
 -   Export to .STL and .SCAD formats
 -   Browser-based with no installation required
 
+#### vcad
+
+<https://github.com/ecto/vcad>
+
+Open-source **parametric CAD for the AI era** — a full B-Rep modeler with web, desktop, and CLI surfaces, designed for human and agent workflows alike.
+
+**Key Features**
+
+-   `@vcad/mcp` server: `create_cad_document`, `export_cad`, `inspect_cad`, `gym_step`, `gym_reset`
+-   Rust/WASM B-Rep kernel: primitives, booleans, fillets, chamfers, shell, sketch constraints
+-   Extrude, revolve, sweep, loft; assembly with joints and forward kinematics
+-   Simulation (phyz) with gym-style RL interface
+-   STEP import; STL, GLB, STEP, DXF export; direct B-Rep ray tracing
+-   Web app at [vcad.io](https://vcad.io), desktop installers, and `vcad-cli`
+
+#### text-to-cad (CAD Skills)
+
+<https://github.com/earthtojake/text-to-cad>
+
+A library of **agent skills** for CAD, robotics, and hardware design — generate, inspect, source, slice, and hand off CAD and robot-description artifacts from local project files.
+
+**Key Features**
+
+-   CAD skill: plain-language or image-driven modeling with STEP, STL, 3MF, and GLB export (build123d / OpenCascade)
+-   CAD Viewer: local browser previews for CAD, G-code, and robot files
+-   Robot description: URDF, SRDF (MoveIt), and SDF skills
+-   Fabrication: G-code slicing, SendCutSend checks, Bambu Labs print workflows
+-   Off-the-shelf parts via step.parts
+-   Install via Skills CLI, Codex, or Claude Code plugins
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer
@@ -735,6 +765,28 @@ A large-scale **feature-level parametric CAD dataset** designed to model advance
 -   Includes advanced modeling features
 -   Bridges low-level commands and high-level feature representations
 -   Suitable for procedural CAD generation and feature learning
+
+#### Zero-To-CAD 1M
+
+<https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-1m>  
+Paper: <https://arxiv.org/abs/2604.24479>
+
+A million-scale dataset of **executable CadQuery construction sequences** synthesized entirely without real-world CAD data, produced by an agentic LLM in a feedback-driven CadQuery environment.
+
+**Key Features**
+
+-   ~1M geometrically validated samples (train / validation / test splits)
+-   Executable, interpretable CadQuery Python per sample with operation JSON metadata
+-   Multi-view renders (8×256×256), plus STL and STEP exports per model
+-   Broad operation coverage: booleans, fillets, chamfers, shells, lofts, sweeps, patterns, and more
+-   65 synthetic part categories; precomputed DINOv3 embeddings and FAISS nearest-neighbor index
+-   Apache 2.0 license (Autodesk AI Lab)
+
+**Primary Use Cases**
+
+-   Training CAD sequence and program-synthesis models
+-   Image-to-CAD reconstruction from multi-view renders
+-   Benchmarking generative CAD models on diverse, validated geometry
 
 ### 📝 Text-Guided / Text-to-CAD Datasets
 

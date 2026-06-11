@@ -860,6 +860,25 @@ While not natively textual, Fusion 360 Gallery is frequently **augmented with sy
 -   Used in weakly supervised Text-to-CAD research
 -   Bridges classic CAD ML and language models
 
+#### argus-diff
+https://github.com/mikelmyers/argus-diff
+
+An open-source geometric diff tool for mechanical CAD ("git diff for atoms"): compares two revisions of a CAD file and reports what actually changed, built on the OCCT kernel via OCP/CadQuery.
+
+Key Features
+
+- Body-level diff for STEP, STL, 3MF, OBJ, PLY — added/removed/modified/unchanged via geometric fingerprint matching
+- Face-level change localization on B-rep ("4x cylinder face: radius 2.5 → 3.0 mm")
+- Mass/volume deltas, bounding box change, solid-solid interference detection
+- Structured JSON output plus rendered before/after/overlay images
+- CI gates (--fail-on-interference, --max-mass-delta-pct) and a GitHub Action that comments the diff on pull requests
+
+Primary Use Cases
+
+- Reviewing mechanical CAD changes on pull requests
+- CI checks for geometry regressions (mass budgets, interference)
+- Understanding what changed in large binary STEP exports
+
 ## 🤝 Contributing
 
 Contributions are welcome!

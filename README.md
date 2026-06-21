@@ -315,6 +315,35 @@ A library of **agent skills** for CAD, robotics, and hardware design — generat
 -   Off-the-shelf parts via step.parts
 -   Install via Skills CLI, Codex, or Claude Code plugins
 
+#### NURBGen
+
+<https://github.com/SadilKhan/NURBGen>
+
+The first framework to generate industry-standard NURBS surfaces directly from text prompts, producing editable, parametric CAD models convertible to STEP format (AAAI 2026).
+
+**Key Features**
+
+-   LLM-driven text-to-CAD via fine-tuned Qwen3-4B (LoRA adapter on Hugging Face)
+-   Direct NURBS surface generation for high-fidelity, industry-standard geometry
+-   CLI and Python API inference (ms-swift, HuggingFace / PEFT)
+-   Export to STEP and STL from generated NURBS representations
+-   Evaluation pipeline for comparing predicted and ground-truth STEP models
+
+#### Forgent3D
+
+<https://github.com/forgent3d/forgent3d>
+
+A local AI CAD companion for building, previewing, and iterating parametric 3D models with coding agents.
+
+**Key Features**
+
+-   Parametric models driven by `part.py` or `asm.xml` plus `params.json`
+-   Live local preview and rebuild loop in a Three.js desktop viewer
+-   AI-agent friendly with built-in project skills and MCP tooling
+-   Geometry-first validation via MJCF, with screenshots and bounding-box feedback
+-   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
+-   Bundled desktop app with embedded build123d CAD runtime
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer

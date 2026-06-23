@@ -689,6 +689,21 @@ An electronics CAD and prototyping tool.
 -   Maker-friendly
 -   Open hardware ecosystem
 
+
+#### ドコカワ (docokawa)
+
+<https://github.com/FabGear-JP/docokawa>
+
+A STEP file diff/comparison tool for mechanical design engineers.
+
+**Key Features**
+
+-   Automatic detection of changed/added/deleted parts
+-   3D viewer with part highlighting
+-   BBox, volume, and surface area comparison
+-   DfM warnings (thin walls, deep holes, sharp angles)
+-   No internet connection required
+
 ## 📊 CAD Datasets
 
 CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.

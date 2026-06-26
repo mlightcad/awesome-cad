@@ -82,6 +82,22 @@ A modern **browser-native CAD viewer** that parses DXF/DWG directly on the clien
 -   WebGL / Three.js based
 -   Privacy-first architecture
 
+#### dxf-kit
+
+<https://github.com/arbaev/dxf-kit>
+
+A browser-native **DXF parser + Three.js/WebGL renderer** with ready-made Vue, React and Web Component viewers. Everything runs client-side — no upload, no server.
+
+**Key Features**
+
+-   Custom DXF parser (no external parser dependency) + Three.js renderer
+-   22 entity types: lines, arcs, splines, polylines, dimensions, leaders, hatches, blocks, etc.
+-   29 AutoCAD hatch patterns, variable-width polylines, standard arrowheads, linetypes
+-   Drop-in wrappers: `dxf-vuer` (Vue 3), `dxf-react` (React 18+), `dxf-lit` (`<dxf-viewer>` Web Component), or vanilla js
+-   Interactive tools: distance/area/angle measurement, layer panel, entity picking, dark theme
+-   Parser also runs headless in Node.js (`dxf-render/parser`)
+-   TypeScript-first, MIT, with a live demo viewer
+
 #### Maker.js
 
 <https://github.com/microsoft/maker.js>

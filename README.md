@@ -82,6 +82,19 @@ A modern **browser-native CAD viewer** that parses DXF/DWG directly on the clien
 -   WebGL / Three.js based
 -   Privacy-first architecture
 
+#### GearForge
+
+<https://1400130-collab.github.io/gearforge/>
+
+A **browser-native parametric generator** for gears, timing-belt pulleys and splines that exports laser-ready DXF/SVG.
+
+**Key Features**
+
+-   Standards-correct involute gears (ISO 21771, trochoidal root fillets, undercut)
+-   14 timing-belt pulley profiles (GT2/HTD/T/AT/MXL) and ISO 4156 splines
+-   Kerf-compensated, mm-true DXF R12 / SVG output for laser & CNC
+-   Runs entirely client-side, zero dependencies, MIT
+
 #### Maker.js
 
 <https://github.com/microsoft/maker.js>

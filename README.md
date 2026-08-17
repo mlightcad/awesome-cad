@@ -689,6 +689,19 @@ An electronics CAD and prototyping tool.
 -   Maker-friendly
 -   Open hardware ecosystem
 
+#### CADGuide Tools & DWG Checker
+
+<https://cadguide.tools>
+
+A lightweight, zero-upload CAD toolbox, DWG version detector, and software comparison directory for engineering workflows.
+
+**Key Features**
+
+-   Zero-upload binary header parsing for instant DWG version identification (AutoCAD 2000 through 2026/AC1032)
+-   50+ 2D/3D CAD and BIM software comparison matrix with AutoLISP and licensing filters
+-   Client-side engineering calculators (K-Factor, bend deduction, scale factor converter)
+-   100% free with no account required
+
 ## 📊 CAD Datasets
 
 CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.

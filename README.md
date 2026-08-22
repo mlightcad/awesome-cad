@@ -21,6 +21,21 @@ Inspired by the *awesome-list* philosophy.
 
 - [🌐 Web-Based CAD / DXF Viewers](#-web-based-cad--dxf-viewers)
 
+  
+- #### cadviewer.xyz
+
+<https://cadviewer.xyz>
+
+A free, browser-based CAD viewer — no signup, no install.
+
+**Key Features**
+- Client-side viewing for STEP, IGES, STL, OBJ, 3MF, BREP, GLB, and DXF
+- Assembly explode/disassemble with per-part STEP export
+- Auto-generates dimensioned, editable 2D engineering drawings (PDF) from any 3D model
+- Click-to-measure, no account required
+
+  
+
 - [📐 DXF / DWG Parsers & Libraries](#-dxf--dwg-parsers--libraries)
 
 - [🧰 CAD Libraries & Kernels](#-cad-libraries--kernels)

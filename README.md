@@ -344,6 +344,35 @@ A local AI CAD companion for building, previewing, and iterating parametric 3D m
 -   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
 -   Bundled desktop app with embedded build123d CAD runtime
 
+#### AutoGAD
+
+<https://github.com/dvdobrovolskiy/AutoGAD>
+
+An AI agent **inside AutoCAD 2025/2026** (.NET plugin, AGPL). It works on the live drawing database through a docked chat palette, using Claude or any OpenAI-compatible API, including local servers.
+
+**Key Features**
+
+-   Reads the live drawing: layers, blocks, attributes, tables, entity queries
+-   Draws from a text description or a dimensioned sketch or photo (lines, polylines, hatches, dimensions, blocks)
+-   Every write shows a confirmation dialog with the exact change
+-   Builds schedules and specifications from the drawing and exports them to Excel/CSV or AutoCAD tables
+-   Built-in image-to-vector tracer that runs locally with no AI
+-   Per-turn token and cost report
+
+#### FreeGAD
+
+<https://github.com/dvdobrovolskiy/FreeGAD>
+
+An AI agent **inside FreeCAD 1.0/1.1** (Python workbench, AGPL). It reads the document, measures, and edits the model with confirmation, using Claude or any OpenAI-compatible API.
+
+**Key Features**
+
+-   Document snapshot plus tools for properties, expressions, sketches, and spreadsheets
+-   Viewport screenshots, so the model can check its own edits visually
+-   `run_python` over the full FreeCAD API as one undo step, with a watchdog and memory guard
+-   Image and PDF attachments ("model this bracket from the drawing")
+-   Confirmation dialog for every edit, plus prompt caching and a per-turn cost line
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer

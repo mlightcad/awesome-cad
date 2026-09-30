@@ -689,6 +689,19 @@ An electronics CAD and prototyping tool.
 -   Maker-friendly
 -   Open hardware ecosystem
 
+#### Kenzap Nesting
+
+<https://github.com/kenzap/nesting-app>
+
+A desktop app for **2D nesting of DXF parts** on sheets and strips.
+
+**Key Features**
+
+-   DXF in / DXF out with preserved layers
+-   Live preview while nesting runs
+-   Common-line cutting and engraving layers
+-   Built for CNC, laser and plasma
+  
 ## 📊 CAD Datasets
 
 CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.

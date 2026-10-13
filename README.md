@@ -426,6 +426,18 @@ Example projects and demos showcasing the **Gemini CAD viewer**, a WebGL-based 3
 -   Includes examples for various CAD formats
 -   Good starting point for integrating web CAD viewers
 
+#### CADProps
+
+<https://www.cadprops.com/tools/step-viewer/>
+
+A free browser-based CAD viewer and inspection tool for supported CAD and mesh formats. Files are processed on CADProps servers.
+
+**Key Features**
+
+-   STEP/STP viewing with model properties and supported geometry measurements
+-   Dimension and unit checks for CAD inspection workflows
+-   No desktop installation; viewing and measurement are available without an account
+
 ## 📐 DXF / DWG Parsers & Libraries
 
 #### LibreDWG

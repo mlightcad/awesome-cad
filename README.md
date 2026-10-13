@@ -426,6 +426,19 @@ Example projects and demos showcasing the **Gemini CAD viewer**, a WebGL-based 3
 -   Includes examples for various CAD formats
 -   Good starting point for integrating web CAD viewers
 
+#### dwg.moonforge.tech
+
+<https://github.com/jaaaco/dwg.moonforge.tech>
+
+Free DWG/DXF viewer that keeps the drawing on the reader's device: the file is decoded in the browser tab by GNU LibreDWG compiled to WebAssembly, with no upload, account or install. Built on `cad-simple-viewer` and `libredwg-web`.
+
+**Key Features**
+
+-   DWG and DXF opened entirely client-side
+-   Layer visibility, and measuring that snaps to endpoints, crossings and midpoints
+-   Vector PDF export on A4 to A0 sheets, fitted or at a fixed scale, written without a PDF library
+-   GPL-3.0, English and Polish, deploys as static files
+
 ## 📐 DXF / DWG Parsers & Libraries
 
 #### LibreDWG

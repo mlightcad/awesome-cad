@@ -750,6 +750,18 @@ An electronics CAD and prototyping tool.
 -   Maker-friendly
 -   Open hardware ecosystem
 
+#### caddiff
+
+<https://github.com/angel291592/caddiff>
+
+A command-line tool that compares two STEP assemblies and reports what changed.
+
+**Key Features**
+
+-   Visual diff image with the changed geometry highlighted
+-   Machine-readable change list (`diff_manifest.json`) and exit codes for CI
+-   Headless container image; Apache-2.0
+
 ## 📊 CAD Datasets
 
 CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.

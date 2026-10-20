@@ -388,6 +388,21 @@ A local AI CAD companion for building, previewing, and iterating parametric 3D m
 -   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
 -   Bundled desktop app with embedded build123d CAD runtime
 
+#### cad-render-mcp
+
+<https://github.com/Willianvdv/cad-render-mcp>
+
+An MCP server that lets AI assistants turn STEP, BREP and IGES files into drawings, renders, animations and videos.
+
+**Key Features**
+
+-   CAD-style views from any angle: shaded, x-ray, section cuts, highlighted parts
+-   Drawing sheets: ISO 128 first- and third-angle layouts at one scale, clean line drawings
+-   Photorealistic stills with Cycles: materials, studio, sky or HDRI lighting, backdrop photos
+-   GIF animations and MP4 videos: orbits and part motions, CAD-style or path traced
+-   Exact numbers from the B-rep: volume, mass, radii, distances, clash and motion checks
+-   Reusable view templates; runs locally on macOS (Metal)
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer

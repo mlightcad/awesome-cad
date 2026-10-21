@@ -748,6 +748,20 @@ An electronics CAD and prototyping tool.
 -   Maker-friendly
 -   Open hardware ecosystem
 
+#### ModelViewer
+
+<https://github.com/sharjith/ModelViewer-Qt>
+
+A free **3D CAD and mesh viewer** with analysis tools (a viewer, not a modeller), written in C++ and Qt 6.
+
+**Key Features**
+
+-   Opens STEP, IGES, BREP, glTF, OBJ, IFC, DXF and more, with true B-Rep edges (OpenCASCADE)
+-   Ray tracing on the CPU or an NVIDIA GPU, with denoising
+-   Measurement, annotation, section and exploded views, PDF reports
+-   Mesh repair, shrink wrap, subdivision and surface analysis (CGAL)
+-   Simulation-result viewer for VTK, CalculiX, Exodus, CGNS, MED and OpenFOAM data
+
 ## 📊 CAD Datasets
 
 CAD datasets organized by **representation and supervision type**, covering **mesh-based geometry**, **parametric / B-Rep CAD**, and **language-guided (Text-to-CAD)** datasets.

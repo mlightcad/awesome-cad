@@ -591,6 +591,25 @@ A parametric geometry kernel for aircraft design based on CPACS and OpenCASCADE.
 - Multi-language bindings (C, C++, Python, Java, MATLAB)
 - Includes TiGL Viewer for geometry visualization
 
+#### Arris
+
+<https://github.com/arris-labs/arris>
+
+A **B-Rep geometry kernel written from scratch in pure Rust**, with a Python package, for code-CAD scripts, AI agents and CAE pipelines.
+
+**Key Features**
+
+- Analytic and NURBS geometry; every vertex, edge and face carries its own tolerance
+- Booleans, fillet and chamfer (including free-form faces), shell, sweep and loft
+- Every operation returns provenance: the faces, edges and vertices it generated, modified and deleted
+- STEP reader (with repair of small gaps and reversed faces, assemblies) and AP214 export
+- Tessellation to a chord tolerance, with NumPy arrays from Python
+- Typed errors instead of panics; an invariant checker validates every result
+- Deterministic output, including byte-identical bodies on `wasm32`
+- Tested against Open CASCADE used as an oracle
+- Python modelling layer (`arris.build`) for scripting; `pip install arris`
+- MIT OR Apache-2.0
+
 #### libfive
 
 <https://github.com/libfive/libfive>

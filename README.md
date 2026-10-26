@@ -390,6 +390,20 @@ A local AI CAD companion for building, previewing, and iterating parametric 3D m
 -   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
 -   Bundled desktop app with embedded build123d CAD runtime
 
+#### txt2cad
+
+<https://github.com/pbsnsriya/txt2cad>
+
+An open-source, local-first text-to-BIM app that turns a plain-language description of a house, flat or small office into an editable building model, exported as IFC4 and DXF.
+
+**Key Features**
+
+-   Plain-language request to a checked building: 1 to 5 storeys with rooms, doors, windows, stairs, roofs and furniture, built step by step with a live 3D view
+-   IFC4 with stable GlobalIds (IfcOpenShell), plus DXF floor plans (ezdxf), SVG plans and JSON export
+-   Results are checked against the request (stated sizes, room counts, roofs, L-shaped, U-shaped and courtyard plans) and scored on a 47-request evaluation set that is independent of the model
+-   Pick parts or drag a box in the 3D view and edit them by prompt; every version is kept
+-   Runs on your own computer (FastAPI + SQLite + React); works offline in practice mode or with Gemini as the model; GPL-3.0
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer

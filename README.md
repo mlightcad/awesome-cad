@@ -390,6 +390,21 @@ A local AI CAD companion for building, previewing, and iterating parametric 3D m
 -   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
 -   Bundled desktop app with embedded build123d CAD runtime
 
+#### nopekit
+
+<https://github.com/neuman/nopekit>
+
+A **Claude Code plugin** that checks CAD and 3D-printed designs before you fabricate — the agent turns requirements into claims and claims into gates (checks) that can say "nope", and every gate must prove it can fail.
+
+**Key Features**
+
+-   CAD solid/mesh checks: watertightness, wall thickness, clashes
+-   FDM 3D-print checks: bed fit, overhang, bridging, layer direction
+-   Beam analysis, thermal, fluids/buoyancy, and sourcing/BOM packs
+-   Every gate ships a negative control showing it can fail
+-   Readiness report summarizing what passed and what is still open
+-   Zero-dependency Python core; optional trimesh/numpy and OpenModelica
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### cad-viewer

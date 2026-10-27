@@ -314,6 +314,20 @@ A Python frontend that generates **OpenSCAD-compatible code**.
 -   Easy integration with Python tooling
 -   Ideal for quick scripting and automation
 
+#### hackerscad
+
+<https://github.com/trikko/hackerscad>
+
+A **parametric CAD where the model is code**, written in D and built on OpenCascade. Models are plain scripts with a C-style syntax, familiar to anyone who knows C, Java or JavaScript.
+
+**Key Features**
+
+-   B-Rep modeling via OpenCascade: fillets, chamfers, shells, lofts, patterns and more.
+-   Desktop app (Linux, Windows, macOS) with live code editor and 3D view
+-   GUI actions and constrained sketches write code back into the model
+-   STEP / STL / 3MF export and 2D drawings
+-   MCP server: AI agents work in the same window you use, and you can work alongside them
+  
 ## 🤖 AI-Assisted Design
 
 #### CADAM

@@ -85,7 +85,7 @@ An open-source **clean-room reimplementation of Autodesk AutoCAD** in pure Rust,
 
 ### Web-Based 2D CAD
 
-#### cad-viewer
+#### MLightCAD CAD Editor
 
 <https://github.com/mlightcad/cad-viewer>
 
@@ -322,7 +322,7 @@ Projects related to **CAD MCP servers, AI agents, agent skills, and harness plug
 
 ## 🌐 Web-Based CAD / DXF Viewers
 
-#### cad-viewer
+#### MLightCAD CAD Viewer
 
 <https://github.com/mlightcad/cad-viewer>
 

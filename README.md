@@ -722,6 +722,34 @@ A Python-based **geometric constraint solver** using numerical optimization tech
 -   Easy to integrate with Python CAD workflows
 -   Helpful for understanding constraint-solving fundamentals
 
+#### constraint-solver (gcs)
+
+<https://github.com/ericPrince/constraint-solver>
+
+A pure-Python **geometric constraint solver** that decomposes a constraint system into fully constrained subsets and solves them in dependency order.
+
+**Key Features**
+
+-   Pure Python, no native dependencies
+-   Automatically splits the constraint graph into independent, fully constrained equation/variable sets
+-   Solves each subset separately, then propagates results along graph dependencies
+-   Constraint graph and geometry visualisation for debugging (matplotlib)
+-   Small, readable reference implementation for learning how CAD sketch solvers work
+
+#### PlaneGCS
+
+<https://github.com/CadQuery/PlaneGCS>
+
+A standalone C++ packaging of **FreeCAD's planegcs** — the geometric constraint solver that powers FreeCAD's Sketcher.
+
+**Key Features**
+
+-   2D geometric constraints: coincident, distance, angle, tangent, perpendicular, parallel, symmetry, etc.
+-   Sparse linear algebra via Eigen and constraint-graph decomposition via Boost.Graph
+-   Diagnostics for redundant, conflicting, and partially redundant constraint sets
+-   CMake build with no GUI dependency — usable as a sketch solver in other CAD applications
+-   LGPL-2.1, same solver code used inside FreeCAD
+
 #### SolveSpace Solver (libslvs)
 
 <https://github.com/solvespace/solvespace>

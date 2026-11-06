@@ -17,7 +17,7 @@ Inspired by the *awesome-list* philosophy.
  
 - [🧑‍💻 Code-Driven / Scriptable CAD](#-code-driven--scriptable-cad)
 
-- [🤖 AI-Assisted Design](#-ai-assisted-design)
+- [🤖 AI-Assisted Design & Agents](#-ai-assisted-design--agents)
 
 - [🌐 Web-Based CAD / DXF Viewers](#-web-based-cad--dxf-viewers)
 
@@ -314,81 +314,11 @@ A Python frontend that generates **OpenSCAD-compatible code**.
 -   Easy integration with Python tooling
 -   Ideal for quick scripting and automation
 
-## 🤖 AI-Assisted Design
+## 🤖 AI-Assisted Design & Agents
 
-#### CADAM
+Projects related to **CAD MCP servers, AI agents, agent skills, and harness plugins** have moved to a dedicated list:
 
-<https://github.com/Adam-CAD/CADAM>
-
-An open-source AI-powered text-to-CAD web application that turns natural language and images into parametric 3D models in the browser.
-
-**Key Features**
-
--   Natural language input to describe 3D models
--   Image-assisted model generation
--   Parametric controls with interactive sliders
--   Real-time 3D preview in browser
--   Export to .STL and .SCAD formats
--   Browser-based with no installation required
-
-#### vcad
-
-<https://github.com/ecto/vcad>
-
-Open-source **parametric CAD for the AI era** — a full B-Rep modeler with web, desktop, and CLI surfaces, designed for human and agent workflows alike.
-
-**Key Features**
-
--   `@vcad/mcp` server: `create_cad_document`, `export_cad`, `inspect_cad`, `gym_step`, `gym_reset`
--   Rust/WASM B-Rep kernel: primitives, booleans, fillets, chamfers, shell, sketch constraints
--   Extrude, revolve, sweep, loft; assembly with joints and forward kinematics
--   Simulation (phyz) with gym-style RL interface
--   STEP import; STL, GLB, STEP, DXF export; direct B-Rep ray tracing
--   Web app at [vcad.io](https://vcad.io), desktop installers, and `vcad-cli`
-
-#### text-to-cad (CAD Skills)
-
-<https://github.com/earthtojake/text-to-cad>
-
-A library of **agent skills** for CAD, robotics, and hardware design — generate, inspect, source, slice, and hand off CAD and robot-description artifacts from local project files.
-
-**Key Features**
-
--   CAD skill: plain-language or image-driven modeling with STEP, STL, 3MF, and GLB export (build123d / OpenCascade)
--   CAD Viewer: local browser previews for CAD, G-code, and robot files
--   Robot description: URDF, SRDF (MoveIt), and SDF skills
--   Fabrication: G-code slicing, SendCutSend checks, Bambu Labs print workflows
--   Off-the-shelf parts via step.parts
--   Install via Skills CLI, Codex, or Claude Code plugins
-
-#### NURBGen
-
-<https://github.com/SadilKhan/NURBGen>
-
-The first framework to generate industry-standard NURBS surfaces directly from text prompts, producing editable, parametric CAD models convertible to STEP format (AAAI 2026).
-
-**Key Features**
-
--   LLM-driven text-to-CAD via fine-tuned Qwen3-4B (LoRA adapter on Hugging Face)
--   Direct NURBS surface generation for high-fidelity, industry-standard geometry
--   CLI and Python API inference (ms-swift, HuggingFace / PEFT)
--   Export to STEP and STL from generated NURBS representations
--   Evaluation pipeline for comparing predicted and ground-truth STEP models
-
-#### Forgent3D
-
-<https://github.com/forgent3d/forgent3d>
-
-A local AI CAD companion for building, previewing, and iterating parametric 3D models with coding agents.
-
-**Key Features**
-
--   Parametric models driven by `part.py` or `asm.xml` plus `params.json`
--   Live local preview and rebuild loop in a Three.js desktop viewer
--   AI-agent friendly with built-in project skills and MCP tooling
--   Geometry-first validation via MJCF, with screenshots and bounding-box feedback
--   Multi-body assemblies with joints, constraints, and optional MuJoCo simulation
--   Bundled desktop app with embedded build123d CAD runtime
+➡️ **[Awesome CAD Agent](https://github.com/mlightcad/awesome-cad-agent)** — a curated list of CAD MCP servers, AI agents, and harness plugins.
 
 ## 🌐 Web-Based CAD / DXF Viewers
 

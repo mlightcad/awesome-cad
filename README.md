@@ -972,3 +972,65 @@ While not natively textual, Fusion 360 Gallery is frequently **augmented with sy
 ## 🤝 Contributing
 
 Contributions are welcome!
+
+Please open an issue or submit a pull request to suggest a new project, correct an existing entry, or improve project descriptions.
+
+### Adding a Project
+
+Entries should follow the format already used throughout this list:
+
+```markdown
+#### Project Name
+
+<https://github.com/owner/repo>
+
+A one- or two-sentence description of what the project is and why it matters.
+
+**Key Features**
+
+-   Feature one
+-   Feature two
+-   Feature three
+```
+
+-   Place the entry in the most relevant existing category.
+-   Keep the repository URL on its own line as a bare link.
+-   Write three to six short, factual key features focused on technical capabilities.
+-   Match the surrounding formatting (heading level, spacing, and bullet style).
+
+### Inclusion Criteria
+
+Projects should meet most of the following criteria:
+
+-   Open-source with a public repository and a clearly stated license.
+-   Directly related to CAD, engineering design, geometry processing, CAD file formats, or CAD automation.
+-   Practical and reusable — working code, a usable library, or a genuinely useful dataset rather than a concept or demo.
+-   Have a meaningful README with documentation and basic usage or installation instructions.
+-   Actively maintained, or historically / technically significant.
+-   Preferably have more than 100 GitHub stars (indicative only, not a hard requirement).
+
+### Project Classification
+
+To keep the list organized:
+
+-   **2D CAD Software** — desktop or browser-based drafting applications.
+-   **3D CAD Modelers** — parametric, solid, or mesh-based modeling applications.
+-   **Code-Driven / Scriptable CAD** — libraries and tools for modeling with code.
+-   **Web-Based CAD / DXF Viewers** — in-browser viewing and rendering tools.
+-   **DXF / DWG Parsers & Libraries** — file-format readers, writers, and parsers.
+-   **CAD File Converters & Interoperability** — cross-format translation and exchange.
+-   **CAD Libraries & Kernels** — geometry kernels, constraint solvers, and mesh processing engines.
+-   **Specialized CAD Tools** — domain-specific tools such as aerospace or electronics CAD.
+-   **CAD Datasets** — mesh-based, parametric / B-Rep, and text-guided CAD datasets.
+-   **CAD Research & Related** — AI-assisted design, agents, and research projects.
+
+A project may fit several categories. List it once in the category representing its main contribution, and add cross-references where useful.
+
+### Quality Guidelines
+
+-   Prefer projects with maintained, working code over abandoned forks or conceptual demos.
+-   Clearly distinguish B-Rep / solid modeling from mesh-only geometry.
+-   Mention supported CAD applications, file formats, and platforms.
+-   Note whether the project depends on a proprietary or locally installed CAD application.
+-   Keep descriptions factual and concise; avoid duplicate entries and unmaintained forks unless they add meaningful functionality.
+-   Star counts are indicative and should not be treated as a permanent inclusion requirement.

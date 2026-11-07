@@ -320,6 +320,21 @@ Projects related to **CAD MCP servers, AI agents, agent skills, and harness plug
 
 ➡️ **[Awesome CAD Agent](https://github.com/mlightcad/awesome-cad-agent)** — a curated list of CAD MCP servers, AI agents, and harness plugins.
 
+#### HomePlan
+
+<https://github.com/caelum0x/homeplan>
+
+An open-source AI architectural floor-plan generator (MIT): turns a plain-language brief (bedroom/bathroom count, square footage, open-plan or not) into a real, computed room layout, not a template or canned image.
+
+**Key Features**
+
+-   Deterministic rectangular-subdivision layout engine: rooms, walls, and doors all derived from actual placed geometry
+-   Room-adjacency rules (e.g. bathrooms explicitly paired to a bedroom or the hallway) to avoid the nonsensical adjacency bugs seen in closed AI floor-plan tools
+-   In-browser Studio editor: drag/resize rooms, with live overlap and undersized-room detection
+-   DXF export (`LWPOLYLINE`/`LINE`/`TEXT` on named layers, independently verified with `ezdxf`) and vector PDF export
+-   Three.js 3D massing view of the generated plan
+-   Next.js/TypeScript, zero external API calls on the core generation path (free, instant, nothing to hallucinate)
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### MLightCAD CAD Viewer

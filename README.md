@@ -241,6 +241,22 @@ A lightweight **web-based 2D/3D CAD editor** focused on sketches and parametric 
 -   Three.js rendering
 -   Ideal for CAD experimentation
 
+#### Open Poly
+
+<https://github.com/eitan27/open-poly>  
+Live app: <https://openpoly.dev>
+
+A free, open-source (GPL-3.0) **parametric 3D CAD application that runs entirely in the browser**, pairing the core modeling tools of desktop CAD with a cleaner, simpler workflow. No sign-up or install.
+
+**Key Features**
+
+-   Sketch engine powered by planegcs, the solver behind FreeCAD
+-   Solid modeling: extrude, revolve, sweep, loft, shell, fillet, chamfer, mirror, booleans, patterns, and more
+-   Feature timeline and variables: change a dimension and the whole model updates
+-   STEP and DXF import; STEP and STL export
+-   Documents stay on your machine, with optional Google Drive sync; also works offline
+-   Works with AI agents through a built-in MCP server (when self-hosted)
+
 ## 🧑‍💻 Code-Driven / Scriptable CAD
 
 Design CAD models using **code instead of GUI interactions** — ideal for **reproducible, parametric, automated, and version-controlled** workflows.

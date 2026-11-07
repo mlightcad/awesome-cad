@@ -320,6 +320,21 @@ Projects related to **CAD MCP servers, AI agents, agent skills, and harness plug
 
 ➡️ **[Awesome CAD Agent](https://github.com/mlightcad/awesome-cad-agent)** — a curated list of CAD MCP servers, AI agents, and harness plugins.
 
+#### cad-render-mcp
+
+<https://github.com/Willianvdv/cad-render-mcp>
+
+An MCP server that lets AI assistants turn STEP, BREP and IGES files into drawings, renders, animations and videos.
+
+**Key Features**
+
+-   CAD-style views from any angle: shaded, x-ray, section cuts, highlighted parts
+-   Drawing sheets: ISO 128 first- and third-angle layouts at one scale, clean line drawings
+-   Photorealistic stills with Cycles: materials, studio, sky or HDRI lighting, backdrop photos
+-   GIF animations and MP4 videos: orbits and part motions, CAD-style or path traced
+-   Exact numbers from the B-rep: volume, mass, radii, distances, clash and motion checks
+-   Reusable view templates; runs locally on macOS (Metal)
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### MLightCAD CAD Viewer

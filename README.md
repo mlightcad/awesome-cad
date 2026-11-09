@@ -320,6 +320,21 @@ Projects related to **CAD MCP servers, AI agents, agent skills, and harness plug
 
 ➡️ **[Awesome CAD Agent](https://github.com/mlightcad/awesome-cad-agent)** — a curated list of CAD MCP servers, AI agents, and harness plugins.
 
+#### nopekit
+
+<https://github.com/neuman/nopekit>
+
+A **Claude Code plugin** that checks CAD and 3D-printed designs before you fabricate — the agent turns requirements into claims and claims into gates (checks) that can say "nope", and every gate must prove it can fail.
+
+**Key Features**
+
+-   CAD solid/mesh checks: watertightness, wall thickness, clashes
+-   FDM 3D-print checks: bed fit, overhang, bridging, layer direction
+-   Beam analysis, thermal, fluids/buoyancy, and sourcing/BOM packs
+-   Every gate ships a negative control showing it can fail
+-   Readiness report summarizing what passed and what is still open
+-   Zero-dependency Python core; optional trimesh/numpy and OpenModelica
+
 ## 🌐 Web-Based CAD / DXF Viewers
 
 #### MLightCAD CAD Viewer

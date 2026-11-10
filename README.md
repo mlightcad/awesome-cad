@@ -241,6 +241,19 @@ A lightweight **web-based 2D/3D CAD editor** focused on sketches and parametric 
 -   Three.js rendering
 -   Ideal for CAD experimentation
 
+#### SolidCraft
+
+<https://solidcraftcad.com>
+
+Browser demo and install guide for **SolidCraft**, an open-source (MIT/Apache-2.0) **parametric 3D CAD app written in Rust**.
+
+**Key Features**
+
+-   Run the official web build directly in the browser, no install
+-   One-click installers for Windows, macOS, and Linux
+-   Timeline-based parametric modeling (extrude, revolve, fillet)
+-   Ships an MCP server so AI agents can create, measure, and export models
+
 ## 🧑‍💻 Code-Driven / Scriptable CAD
 
 Design CAD models using **code instead of GUI interactions** — ideal for **reproducible, parametric, automated, and version-controlled** workflows.

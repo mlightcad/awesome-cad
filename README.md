@@ -484,6 +484,20 @@ A command-line tool for **inspecting and converting native CAD files**, built in
 -   Rust workspace with reusable crates for embedding native CAD import into applications
 -   Apache 2.0 (code), CC BY 4.0 (docs), cross-platform install (Homebrew, installer scripts, cargo)
 
+#### mesh2cad
+
+<https://github.com/emirmrkaljevic/mesh2cad>
+
+A Python CLI and MCP server that converts an STL mesh of a simple mechanical part into an exact STEP solid plus an editable CadQuery, OpenSCAD, or FreeCAD script with named dimensions.
+
+**Key Features**
+
+-   Fits planes, cylinders, holes, bosses, fillets, and L-brackets from a mesh and writes STEP
+-   Emits parametric CadQuery, OpenSCAD, and FreeCAD scripts you can edit with one number
+-   Self-check gate reports deviation and volume error, and refuses a script when the fit is not good enough
+-   MCP server (`mesh2cad mcp`) plus a CLI (`convert`, `params`, `edit`)
+-   MIT license, published on PyPI as `mesh2cad`
+
 ## 🧰 CAD Libraries & Kernels
 
 ### Geometry & Modeling Kernels

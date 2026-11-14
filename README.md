@@ -314,6 +314,19 @@ A Python frontend that generates **OpenSCAD-compatible code**.
 -   Easy integration with Python tooling
 -   Ideal for quick scripting and automation
 
+#### ArchLang
+
+<https://github.com/ChanMeng666/archlang>
+
+Open-source (MIT) **floor plans as code**: a plain-text `.arch` file compiles to dimensioned SVG, DXF, PDF and PNG, with a linter that checks the result.
+
+**Key Features**
+
+-   Deterministic output: the same text gives the same drawing
+-   DXF export with blocks, in millimetres
+-   Checks for doors, reachability, clearances and more, with fix suggestions
+-   CLI, browser playground, VS Code extension and an MCP server
+
 ## 🤖 AI-Assisted Design & Agents
 
 Projects related to **CAD MCP servers, AI agents, agent skills, and harness plugins** have moved to a dedicated list:

@@ -212,6 +212,21 @@ An open-source **2D drafting and 3D modeling** application built in Rust, with n
 -   Cross-platform desktop (Windows, Linux, macOS) and web (WebAssembly)
 -   Plugin system, headless automation, and MCP endpoint for AI agents
 
+#### FreeShape
+
+<https://github.com/richiewillmott/FreeShape>
+
+An offline, **Onshape-style parametric 3D CAD** application with part modeling, assemblies, 2D drawings, and sheet metal, built in Python on OpenCascade.
+
+**Key Features**
+
+-   B-Rep solid modeling (OpenCascade) with constrained sketches, feature history, variables, and configurations
+-   Assemblies with mates, a standard ISO parts library, interference check, and BOM
+-   2D drawings with associative dimensions; DXF (with native AutoCAD dimensions) and PDF export
+-   Sheet metal with K-factor flat patterns and DXF export for laser cutting
+-   STEP import/export, STL and BREP export; Python plugin API
+-   Cross-platform desktop (Windows, macOS, Linux), GPL-3.0, no account or cloud required
+
 ### Web-Based 3D CAD
 
 #### jsketcher

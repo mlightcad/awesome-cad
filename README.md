@@ -112,6 +112,20 @@ A JavaScript library for **programmatic 2D CAD geometry**.
 -   Perfect for CNC & laser cutting
 -   Strong TypeScript support
 
+#### Chamfer
+
+<https://github.com/hasanyahsitr/chamfer>
+
+An open-source millimeter 2D CAD workbench and analytical manufacturing Design Rule Check (DRC) engine that runs client-side in the browser, paired with an optional local Python / Open CASCADE (`build123d`) bridge for 3D B-Rep solid extrusion and MCP automation.
+
+**Key Features**
+
+-   Zero-install browser 2D drafting with AutoCAD-style command line, snapping, and `CONSTRUCTION` layers
+-   Exact analytical DRC (line/arc/circle intersections without chord sampling) and one-click coordinate repair
+-   Lossless ASCII R2010 millimeter DXF import/export and DRC-stamped ISO SVG blueprints
+-   Optional local Python 3.12 + Open CASCADE (`build123d`) bridge for validated `.step` / `.stl` B-Rep solids
+-   Transactional HTTP and `stdio` MCP server (`chamfer-mcp`) for deterministic programmatic CAD
+
 ## 🧩 3D CAD Modelers
 
 ### Desktop 3D CAD

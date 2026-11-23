@@ -484,6 +484,21 @@ A command-line tool for **inspecting and converting native CAD files**, built in
 -   Rust workspace with reusable crates for embedding native CAD import into applications
 -   Apache 2.0 (code), CC BY 4.0 (docs), cross-platform install (Homebrew, installer scripts, cargo)
 
+#### sw2step
+
+<https://github.com/maodiehaqi/sw2step>
+
+A 100% local, zero-SolidWorks batch converter and pre-flight checker for translating SolidWorks assemblies (`.SLDASM`) and parts (`.SLDPRT`) into exact B-Rep **STEP (AP214)**, 3MF, and STL.
+
+**Key Features**
+
+-   Exact B-Rep STEP (AP214) export for both parts (`.SLDPRT`) and multi-part assemblies (`.SLDASM`) without requiring a local SolidWorks installation (built on SolidSeas)
+-   Also exports tessellated 3MF and binary STL meshes for 3D printing workflows
+-   Pre-flight reference integrity checker (`sw2step check`) that flags missing `.SLDPRT` files before conversion
+-   Direct folder and Pack-and-Go `.zip` batch conversion with Zip Slip protection and automatic duplicate-copy filtering
+-   Exports Excel-friendly BOM `.csv` and geometry quality reports (closed solids, face counts, max deviation)
+-   Apache 2.0 license; cross-platform Python CLI, loopback-only (`127.0.0.1`) bilingual Web UI, and standalone Windows `.exe`
+
 ## 🧰 CAD Libraries & Kernels
 
 ### Geometry & Modeling Kernels

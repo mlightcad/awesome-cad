@@ -241,6 +241,19 @@ A lightweight **web-based 2D/3D CAD editor** focused on sketches and parametric 
 -   Three.js rendering
 -   Ideal for CAD experimentation
 
+#### SolidCraft
+
+<https://github.com/tangency-labs/solidcraft> · <https://solidcraftcad.com>
+
+An open-source **parametric CAD app built in Rust**, running directly in the browser.
+
+**Key Features**
+
+-   Parametric, sketch-based modeling in-browser
+-   Rust-based CAD kernel compiled to WebAssembly
+-   One-click native downloads for Windows, Mac, and Linux
+-   No install needed to try it in the browser first
+
 ## 🧑‍💻 Code-Driven / Scriptable CAD
 
 Design CAD models using **code instead of GUI interactions** — ideal for **reproducible, parametric, automated, and version-controlled** workflows.

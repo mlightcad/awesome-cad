@@ -484,6 +484,20 @@ A command-line tool for **inspecting and converting native CAD files**, built in
 -   Rust workspace with reusable crates for embedding native CAD import into applications
 -   Apache 2.0 (code), CC BY 4.0 (docs), cross-platform install (Homebrew, installer scripts, cargo)
 
+#### OpenSKP
+
+<https://github.com/iamahsanmehmood/openskp>
+
+An open-source **reader, writer and converter for SketchUp `.skp` files**, worked out from the files themselves, with no SketchUp install or Trimble SDK.
+
+**Key Features**
+
+-   Reads classic SketchUp files (4 to 2020) and the 2021+ format, and writes new `.skp` files
+-   Converts to glTF/GLB, OBJ, STL, PLY, DXF, IFC4 and ThatOpen Fragments
+-   Libraries for Python, TypeScript, C#/.NET, Dart, C++ and Rust (PyPI, npm, NuGet, pub.dev)
+-   Blender and FreeCAD add-ons for `.skp` import and export
+-   MIT license
+
 ## 🧰 CAD Libraries & Kernels
 
 ### Geometry & Modeling Kernels

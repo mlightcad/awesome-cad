@@ -372,6 +372,14 @@ Example projects and demos showcasing the **Gemini CAD viewer**, a WebGL-based 3
 -   Includes examples for various CAD formats
 -   Good starting point for integrating web CAD viewers
 
+  #### ViewStep3D
+  <https://github.com/hanshan0228/viewstep3d>
+  Free browser-based STEP/STP/STL/OBJ/GLB/3MF/IGES viewer and converter powered by Open CASCADE WebAssembly, with zero server uploads.
+  - 100% client-side parsing, NDA-safe, no account or install
+  - Measure STEP assemblies in mm, with sections, wireframe and triangle counts
+  - Convert STEP to STL/OBJ/GLB locally in the browser
+  - Free, MIT licensed, up to 100 MB files
+
 ## 📐 DXF / DWG Parsers & Libraries
 
 #### LibreDWG
